@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table{
+            border: 1px solid;
+            width: 900px;
+            background-color: black;
+        }
+
+        tr{
+            height: 30px;
+            background-color: lightgray;
+        }
+
+        th{
+            background-color:lightblue;
+            width: 400px;
+        }
+
+        td{
+            text-align: center;
+            width: 500px;
+        }
+
+        .one{
+            border: 5px;
+            width: 70%;
+            height: 40%;
+            padding-left: 30px;
+        }
+
+        form{
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction Survey Form</title>
+</head>
+<body style="background-color: rgb(235, 230, 230);">
+    <form>
+        <h2 style="text-align: center;">Customer Satisfaction Survey Form</h2>
+        
+        <div>
+            <p><b>1.) Why did you contact customer service?</b></p>
+            <textarea name="reason" rows="10" cols="120"></textarea>
+        </div>
+
+        <div>
+            <p><b>2.) What method did you use to contact cutomer service?</b></p>
+            <input type="radio" id="tel" name="method" value="Telephone">
+            <label for="tel">Telephone</label>
+            <input type="radio" id="mail" name="method" value="Mail">
+            <label for="mail">Mail</label>
+            <input type="radio" id="email" name="method" value="E-Mail">
+            <label for="email">E-Mail</label>
+            <input type="radio" id="fax" name="method" value="Fax">
+            <label for="fax">Fax</label>
+            <input type="radio" id="other" name="method" value="Other">
+            <label for="other">Other</label><br><br>
+            <input type="text" id="other" name="method" style="padding-left: 18%;">
+        </div>
+        <div>
+            <p><b>3.) How satisfied are you with the time it took customer service to answer your question or resolve your issue?</b></p>
+            <input type="radio" id="veryD" name="satisfaction" value="Very Dissapointed">
+            <label for="veryD">Very Dissapointed</label><br>
+            <input type="radio" id="dis" name="satisfaction" value="Dissatisfied">
+            <label for="dis">Dissatisfied</label><br>
+            <input type="radio" id="undecided" name="satisfaction" value="Undecided">
+            <label for="undecided">Undecided</label><br>
+            <input type="radio" id="satisfied" name="satisfaction" value="Satisfied">
+            <label for="satisfied">Satisfied</label><br>
+            <input type="radio" id="veryS" name="satisfaction" value="Very Satisfied">
+            <label for="veryS">Very Satisfied</label><br>
+        </div>
+
+        <h3>Please tell us how much you agree or disagree with the following statements.</h3>
+        
+        <label>4) The customer service representative was knowledgeable and easy to understand.</label><br>
+        <input type="radio" name="knowledge" value="strongly_disagree"> Strongly Disagree
+        <input type="radio" name="knowledge" value="disagree"> Disagree
+        <input type="radio" name="knowledge" value="undecided"> Undecided
+        <input type="radio" name="knowledge" value="agree"> Agree
+        <input type="radio" name="knowledge" value="strongly_agree"> Strongly Agree<br><br>
+        
+        <label>5) The customer service representative was able to handle my problem quickly and to my satisfaction.</label><br>
+        <input type="radio" name="handling" value="strongly_disagree"> Strongly Disagree
+        <input type="radio" name="handling" value="disagree"> Disagree
+        <input type="radio" name="handling" value="undecided"> Undecided
+        <input type="radio" name="handling" value="agree"> Agree
+        <input type="radio" name="handling" value="strongly_agree"> Strongly Agree<br><br>
+        
+        <div class="button-container">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+</body>
+</html>
+</body>
+</html>
